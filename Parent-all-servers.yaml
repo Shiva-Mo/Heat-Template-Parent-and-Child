@@ -115,7 +115,7 @@ resources:
   app_server_security_group:
     type: OS::Neutron::SecurityGroup
     properties:
-      name: web-server-SG
+      name: app-server-SG
       rules:
         - protocol: tcp
           remote_ip_prefix: 0.0.0.0/0
